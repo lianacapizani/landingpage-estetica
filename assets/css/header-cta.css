@@ -1,0 +1,129 @@
+/* CSS HEADER */
+
+.header-page {
+  background-color: var(--color-red-dark);
+  box-shadow: 1px 1px 10px var(--color-dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 7rem;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+
+  & img {
+    width: 18rem;
+    margin: 0.5rem 2rem 1.4rem;
+  }
+
+  & nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      white-space: nowrap;
+
+      & li {
+        margin: 0 1.6rem;
+        font-size: 1.8rem;
+        font-weight: 300;
+
+        & a {
+          color: var(--color-light);
+          z-index: 1;
+        }
+      }
+    }
+  }
+
+  & .nav-btn {
+    background-color: var(--color-nude-rose);
+    border-radius: 0.6rem;
+    border: 1px solid var(--color-nude-rose);
+    padding: 0.6rem 1.6rem;
+    margin: 0 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    white-space: nowrap;
+    display: flex;
+
+    & a {
+      color: var(--color-red-dark);
+      cursor: pointer;
+    }
+  }
+
+    & .icon {
+  padding-left: .6rem;
+    }
+
+  & .nav-btn:hover {
+    background-color: var(--color-red-dark);
+    & a:hover {
+      color: var(--color-nude-rose);
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .nav-btn {
+  visibility: hidden;}}
+
+/* CSS CTA */
+
+.cta-hero-content {
+  margin-top: 7rem;
+  height: 80vh;
+  width: 100%;
+  background-image: url(../../assets/images/cta.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--color-light);
+
+  & h1 {
+    width: 80%;
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 2rem;
+    text-shadow: 1px 1px 8px var(--color-dark);
+  }
+
+  & p {
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 3px var(--color-dark);
+    margin-bottom: 2rem;
+  }
+
+  & .cta-btn {
+    background-color: var(--color-red);
+    border-radius: 0.6rem;
+    padding: 0.6rem 3rem;
+    margin: 0 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    box-shadow: 1px 1px 3px var(--color-dark);
+    & a {
+      color: var(--color-nude-rose);
+      cursor: pointer;
+    }
+  }
+
+  & .cta-btn:hover {
+    background-color: var(--color-red-dark);
+  }
+}
+
+

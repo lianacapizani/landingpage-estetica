@@ -1,0 +1,54 @@
+:root {
+  --color-nude-rose: #f7ceba;
+  --color-red: #a6142a;
+  --color-red-dark: #7c262d;
+  --color-dark: #220005;
+  --color-light: #fff;
+  --color-off-white: #f6f6f6;
+  --color-grey: #a4a4a4;
+  --font-family: "Poppins", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: var(--color-nude-rose);
+    font-family: var(--font-family);
+    color: #220005;
+    width: 100%;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    transition: .5s;
+}
+
+a:hover {
+   font-weight: 600;
+}
+
+.section-title{
+    color: var(--color-red-dark);
+    font-size: 3.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1rem 0;
+}

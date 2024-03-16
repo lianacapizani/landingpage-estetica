@@ -1,0 +1,53 @@
+/* SCSS SOBRE */
+
+.about-content {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0 1rem;
+}
+
+.about-img {
+  width: 45;
+  margin: 4rem;
+  & img {
+    width: 95%;
+  }
+}
+
+.about-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem;
+
+  & p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    padding: 0.8rem 0;
+  }
+
+  & p:last-child {
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-content {
+    flex-direction: column-reverse;
+    height: 100vh;
+  }
+
+  .about-img {
+    width: 70%;
+    margin: auto 8rem;
+  }
+
+  .about-text {
+    width: 100%;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+}

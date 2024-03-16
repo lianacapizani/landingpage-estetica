@@ -1,0 +1,46 @@
+
+footer{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & img{
+        width: 25%;
+    }
+
+    & .social-medias{
+        font-size: 2rem;
+        font-weight: 400;
+        display: flex;
+        gap: 2rem;
+
+        & .icon{
+        color: var(--color-red);
+        }
+    }
+}
+
+
+/* whatsapp icone fixed */
+
+.whatsapp-container{
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    z-index: 1000;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: #3DCD5C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    & .icon{
+        font-size: 3.8rem;
+        color: var(--color-light);
+    }
+}
