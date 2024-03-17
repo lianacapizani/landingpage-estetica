@@ -1,0 +1,184 @@
+
+/* media queries pra iphone */
+
+@media (max-width: 1200px) {
+
+.equipe-cards-container {
+    margin: auto 0;
+    display: flex;
+    justify-content:center;
+    gap: 1rem;
+    align-items: center;
+    margin-left: 2rem;
+    height: 60vh;
+    }   
+}
+
+
+@media (max-width: 900px) {
+
+    .unidades-content {
+        height: 100vh;
+    }
+    .unidades-cards {
+        width: 80%; /* Reduzindo a largura dos cards */
+        flex-direction: column; /* Alterando para uma disposição em coluna */
+    }
+
+    .unidade-card {
+        width: 256px;
+        margin-bottom: 1rem; /* Adicionando espaço entre os cards */
+    }
+
+    .unidade-img img {
+        width: 100%; /* Ajustando a largura da imagem para preencher o contêiner */
+        height: auto; /* Mantendo a proporção da imagem */
+    }
+
+    .unidade-text {
+        position: static; /* Removendo o posicionamento absoluto */
+        transform: none; /* Removendo a transformação */
+        border-radius: 0; /* Removendo o arredondamento dos cantos */
+        margin: 0; /* Removendo a margem inferior */
+        padding: .6rem; /* Adicionando preenchimento para melhor legibilidade */
+        text-align: left; /* Alinhando o texto à esquerda */
+    }
+
+    .rua {
+        font-size: 1rem; /* Reduzindo o tamanho da fonte */
+        font-weight: 400; /* Ajustando a espessura da fonte */
+    }
+
+    .bairro {
+        font-size: 1rem; /* Reduzindo o tamanho da fonte */
+        font-weight: 300; /* Ajustando a espessura da fonte */
+    }
+}
+
+/* *************************************** */
+
+@media (max-width: 768px) {
+    
+    .section-title {
+        font-size: 3.8rem;
+    }
+    
+    .cta-hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .cta-hero-content p {
+        font-size: 1.4rem;
+    }
+    
+    .cta-btn {
+        padding: 0.4rem 2rem;
+        font-size: 1.2rem;
+    }
+    
+    .section-title {
+        font-size: 2.5rem;
+    }
+    
+    .about-text {
+        margin-top: 2rem;
+    }
+    
+    .equipe-container {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    
+    .equipe-card {
+        width: 45%;
+    }
+    
+    .services-cards {
+        gap: 1.6rem;
+        margin: 0 1rem 0 4rem;
+
+    }
+    
+    .service-card {
+        width: 22rem;
+        height: 28rem;
+        margin: 1rem auto;
+    }
+
+    .services-card-text {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* *************************************** */
+
+@media (max-width: 500px) {
+    .cta-hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .cta-hero-content p {
+        font-size: 1.2rem;
+    }
+    
+    .cta-btn {
+        padding: 0.4rem 1.6rem;
+        font-size: 1rem;
+    }
+    
+    .about-text {
+        margin-top: 1rem;
+    }
+    
+    .services-cards {
+        overflow-x: auto;
+    }
+    
+    .service-card {
+        width: 65%;
+        margin: 1rem auto;
+    }
+
+    .equipe-content {
+        width: 100%;
+        height: 100vh;
+
+    }
+    .equipe-cards-container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        gap: 2rem;
+        align-items: center;
+        margin-left: 3rem;
+    }
+    .equipe-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+/* .vertical-heading-container {
+  display: flex !important; 
+  flex-direction: column!important;
+  align-items: center;
+  margin-top: .2rem !important;  Adicione espaço superior para aproximar dos cards
+} */
+
+/* .vertical-heading {
+  writing-mode: horizontal-tb !important;
+  transform: none !important; 
+  font-size: 3rem;
+  top: unset;
+  left: unset; 
+  margin-top: 0rem; 
+} */

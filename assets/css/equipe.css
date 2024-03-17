@@ -1,29 +1,52 @@
 .equipe-content {
     width: 100%;
     height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    & .equipe-container {
-    width: 80%;
-    display: flex;
-    align-items: flex-start;;
-    gap: 2rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+
+}
+
+/* css cards */
+
+.equipe-cards-container {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content:center;
+    gap: 2rem;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.equipe-card {
+    min-width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    & img {
+        width: 100%;
+        border-radius: 4rem 0 0 0 ;
+    }
+    
+    & .icon{
+        padding: .5rem;
+        font-size: 1.8rem;
+        color: var(--color-red-dark);
+        
     }
 }
 
-.vertical-heading-container {
-    margin: auto 0;
-    
-}
 
-/* fazer o h1 ficar invertido */
+/* fazer o h1 ficar invertido
 .vertical-heading {
-    writing-mode: vertical-rl; /* Texto vertical da direita para a esquerda */
-    transform-origin: bottom left; /* Define a origem da transformação */
-    transform: rotate(180deg); /* Gira o texto em 90 graus */
+    writing-mode: vertical-rl;  Texto vertical da direita para a esquerda 
+    transform-origin: bottom left;  Define a origem da transformação 
+    transform: rotate(180deg);  Gira o texto em 90 graus 
     font-size: 3.6rem;
     text-transform: uppercase;
     color: var(--color-red-dark);
@@ -33,35 +56,4 @@
     position: relative;
     top: -33rem;
     left: 4rem;
-    
-}
-/* css cards */
-
-.equipe-cards-container {
-    margin: auto 0;
-    display: flex;
-    justify-content: flex-start;
-    gap: 2rem;
-    align-items: center;
-    margin-left: 3rem;
-}
-
-.equipe-card {
-    width: 24%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    & img {
-        width: 100%;
-    }
-
-        & .icon{
-            padding: .5rem;
-            font-size: 1.8rem;
-            color: var(--color-red-dark);
-            
-        }
-    }
-
-
+} */

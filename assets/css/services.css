@@ -7,6 +7,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 4rem;
 
 
   & p {
@@ -25,7 +26,7 @@
   overflow-X: auto;
   overflow-y: hidden;
   white-space: nowrap;
-  margin: 4rem auto;
+  margin: 4rem 0rem 2rem 3rem;
 }
 
 .service-card {
